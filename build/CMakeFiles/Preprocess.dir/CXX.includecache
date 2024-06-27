@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/CallMetis.h
+Common.h
+../include/Common.h
+metis.h
+../include/metis.h
+
+../include/Common.h
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+sstream
+-
+unordered_map
+-
+unordered_set
+-
+
+/home/user/Preprocess/src/CallMetis.cpp
+CallMetis.h
+/home/user/Preprocess/src/CallMetis.h
+
